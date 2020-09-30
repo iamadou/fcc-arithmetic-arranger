@@ -6,7 +6,6 @@ def exception_handler(num_1, num_2, sign):
         return "Error: Operator must be '+' or '-'."
         # raise Exception("Error: Operator must be '+' or '-'.")
 
-
     if(len(num_1) > 4 or len(num_2) > 4):
         return "Error: Numbers cannot be more than four digits."
         # raise Exception('Error: Numbers cannot be more than four digits.')
